@@ -1,0 +1,9 @@
+{
+	"/api/v1/files_post":"com.leucine.documentstore.service.FileService.createFile",
+	"/api/v1/files_get":"com.leucine.documentstore.service.FileService.getFiles",
+	"/api/v1/files/([0-9]+)_post":"com.leucine.documentstore.service.FileService.updateFile",
+	"/api/v1/files/([0-9]+)_get":"com.leucine.documentstore.service.FileService.getFile",
+	"/api/v1/files/([0-9]+)/content_get":"com.leucine.documentstore.service.FileService.getFileContent",
+	"/api/v1/files/([0-9]+)/rename_post":"com.leucine.documentstore.service.FileService.updateFileName",
+	"/api/v1/files/([0-9]+)/delete_post":"com.leucine.documentstore.service.FileService.deleteFile"
+}
